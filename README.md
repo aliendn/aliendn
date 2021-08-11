@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @aliendn
 - 👀 I’m interested in web developing
-- 🌱 I’m currently learning everything that i can learn even from u :)
+- 🌱 I’m currently learning everything that i can learn even from  :)
 - 📫 How to reach me => dehghan215@gmail.com
 
 <!---
