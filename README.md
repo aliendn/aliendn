@@ -43,7 +43,7 @@
 
 <!--END_SECTION:waka-->
 
-<script src="aliendn/index.js"></script>
+<script src="index.js"></script>
 ---
 
 ### <img alt="GIF" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="20" /> A Famous Fact/Quote:
