@@ -43,8 +43,7 @@
 
 <!--END_SECTION:waka-->
 
-⏳ **Year Progress** { █████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 45.09 % as on ⏰ 13-Jun-2024
-
+<script src="aliendn/index.js"></script>
 ---
 
 ### <img alt="GIF" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="20" /> A Famous Fact/Quote:
