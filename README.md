@@ -43,29 +43,30 @@
 
 <!--END_SECTION:waka-->
 
-<script>
-const thisYear = new Date().getFullYear()
-const startTimeOfThisYear = new Date(`${thisYear}-01-01T00:00:00+00:00`).getTime()
-const endTimeOfThisYear = new Date(`${thisYear}-12-31T23:59:59+00:00`).getTime()
-const progressOfThisYear = (Date.now() - startTimeOfThisYear) / (endTimeOfThisYear - startTimeOfThisYear)
-const progressBarOfThisYear = generateProgressBar()
+⏳ **Year Progress** <span id="year-progress"></span> as on ⏰ <span id="current-date"></span>
 
-let monthNames = ["Jan","Feb","Mar","Apr", "May","Jun","Jul","Aug", "Sep", "Oct","Nov","Dec"];
+<script>
+const thisYear = new Date().getFullYear();
+const startTimeOfThisYear = new Date(`${thisYear}-01-01T00:00:00+00:00`).getTime();
+const endTimeOfThisYear = new Date(`${thisYear}-12-31T23:59:59+00:00`).getTime();
+const progressOfThisYear = (Date.now() - startTimeOfThisYear) / (endTimeOfThisYear - startTimeOfThisYear);
 
 function generateProgressBar() {
-    const progressBarCapacity = 30
-    const passedProgressBarIndex = parseInt(progressOfThisYear * progressBarCapacity)
+    const progressBarCapacity = 30;
+    const passedProgressBarIndex = parseInt(progressOfThisYear * progressBarCapacity);
     const progressBar = Array(progressBarCapacity)
         .fill('▁')
         .map((value, index) => index < passedProgressBarIndex ? '█' : value)
-        .join('')
-    return `{ ${progressBar} }`
+        .join('');
+    return `{ ${progressBar} }`;
 }
 
-const readme = `
-⏳ **Year Progress** ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} % as on ⏰ ${(new Date().getDate()-1)+'-'+ monthNames[new Date().getMonth()]+'-'+new Date().getFullYear()}
-`
+const monthNames = ["Jan","Feb","Mar","Apr", "May","Jun","Jul","Aug", "Sep", "Oct","Nov","Dec"];
+
+document.getElementById("year-progress").textContent = generateProgressBar() + ' ' + (progressOfThisYear * 100).toFixed(2) + ' %';
+document.getElementById("current-date").textContent = (new Date().getDate()) + '-' + monthNames[new Date().getMonth()] + '-' + new Date().getFullYear();
 </script>
+
 ---
 
 ### <img alt="GIF" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="20" /> A Famous Fact/Quote:
@@ -79,4 +80,3 @@ const readme = `
 
 ### <img align ='center' src='https://media2.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif?cid=ecf05e47p3cd513axbek3f56ti3jzizq8hincw20jauyyfyw&rid=giphy.gif' width ='29' /> Here's some humor for you:
 <img src="https://readme-jokes.vercel.app/api" alt="Error fetching resource, Refresh again to view Jokes Card" width = '11000' />
-
