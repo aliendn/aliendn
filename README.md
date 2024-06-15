@@ -43,8 +43,6 @@
 
 <!--END_SECTION:waka-->
 
-⏳ **Year Progress** <span id="year-progress"></span> as on ⏰ <span id="current-date"></span>
-
 ---
 
 ### <img alt="GIF" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="20" /> A Famous Fact/Quote:
