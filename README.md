@@ -41,10 +41,9 @@
 
 <!--START_SECTION:waka-->
 
-⏳ **Year Progress** { █████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 45.09 % as on ⏰ 13-Jun-2024
-
 <!--END_SECTION:waka-->
 
+⏳ **Year Progress** { █████████████▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 45.09 % as on ⏰ 13-Jun-2024
 
 ---
 
