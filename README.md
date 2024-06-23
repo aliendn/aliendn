@@ -10,7 +10,7 @@
 - 🏦 I'm Backend Engineer and currently work for Adlas Co.
       <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 - 💻 I use daily: **.py**, **.go**,  **.js** or **.ts**
-- 💬 Talk to me about cricket, python (both of these are not any kind of insect or animals), silicon valley & startups
+- 💬 Talk to me about cricket, python (both of these are not any kind of insect or animals), silicon valley & startups & specially animes :D
 - 🥷 Blockchain, Bug Hunting enthusiast
 - 🪙 Currently focus on Blockchain concepts and also Data Structures and Algorithms
 - 🧑‍💻 Tech I work on :
