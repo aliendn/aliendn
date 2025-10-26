@@ -7,7 +7,7 @@
 </p>
 
 ### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
-- 🏦 I'm Backend Engineer and currently work for Adlas Co.
+- 🏦 I'm Backend Engineer.
       <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 - 💻 I use daily: **.py**, **.go**,  **.js** or **.ts**
 - 💬 Talk to me about cricket, python (both of these are not any kind of insect or animals), silicon valley & startups & specially animes :D
